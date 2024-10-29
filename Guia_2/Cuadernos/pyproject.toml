@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cuadernos"
+version = "0.1.0"
+description = "Desarrollo taller"
+authors = ["Yeison Andres Baron"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+scikit-learn = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

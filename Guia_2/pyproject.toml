@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "guia-2"
+version = "0.1.0"
+description = "Desarrollo Guia 2 Mahcine Learning"
+authors = ["Yeison Andres Baron Lopez"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+scikit-learn = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
